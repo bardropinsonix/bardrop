@@ -1,0 +1,38 @@
+/* VIEW.CSS */
+
+.view{
+	position: relative;
+}
+.view h2{
+	font: bold 2em "Trebuchet MS", Helvetica, sans-serif; 
+	color: #000; 
+	text-shadow: 1px 1px 0 #fff;
+	background: transparent url('/img/status_title_page_icon.png') no-repeat 0px 0px; 
+	display: inline-block;
+	width: 760px;
+	margin: 0 0 20px 0;
+	padding: 40px 0px 30px 110px;
+	border-bottom: solid 1px #babbad;
+}
+.view dl dt{	
+	padding-bottom: 5px;
+}
+.view dl dd{
+	width: 850px;	
+	padding: 5px 10px;
+	background: #ffffff;
+	border: solid 1px #babbad;
+	border-radius:5px;
+	margin: 0 0 15px 0;
+	text-align: right;
+	color: #587077;
+}
+.actions h3, .related h3{
+	padding: 5px 0;
+	border-bottom: solid 1px #babbad;
+	width: 100%;
+	font-size: 1.5em;
+}
+.actions ul li{
+	margin-top: 10px;
+}

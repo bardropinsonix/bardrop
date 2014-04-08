@@ -1,0 +1,140 @@
+/* FORM */
+
+.form {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+.form fieldset {
+	position: relative;
+	border: none;
+}
+.form h1 {
+	font: bold 2em "Trebuchet MS", Helvetica, sans-serif; 
+	color: #000; 
+	text-shadow: 1px 1px 0 #fff;
+	background: transparent url('/img/confirmation_title_page_icon.png') no-repeat 0px 0px; 
+	display: inline-block;
+	width: 770px;
+	margin: 0 0 25px 0;
+	padding: 40px 0px 35px 100px;
+	border-bottom: solid 1px #babbad;
+}
+.form div.input {
+	position: relative;
+	height: 20px;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.form div.input label {
+	float: left;
+	width: 200px;
+	font-size: 1.3em;	
+}
+.form div.input label.error {
+	position: absolute;
+	top: 4px;
+	left: 525px;
+	color: #cc0000;
+	width: 125px;
+	font-size: 0.8em;
+}
+.form input {
+	float: left;
+	margin-top: -3px;
+	width: 300px;
+	padding: 5px 10px;
+	background: #ffffff;
+	border: solid 1px #babbad;
+	border-radius:5px;
+	font-size: 1em;
+	color: #587077;
+}
+.form input[type="checkbox"] {
+	float: right;
+	width: auto;
+	margin: 10px 0 0 0;
+}
+.form select {
+	float: left;
+	margin-top: -3px;
+	width: 320px;
+	height: 30px;
+	padding: 5px 10px;
+	background: #ffffff;
+	border: solid 1px #babbad;
+	border-radius:5px;
+	font-size: 1em;
+	color: #587077;
+}
+.form select#UserBirthdayMonth {
+	width: 140px;
+	margin-right: 5px;
+}
+.form select#UserBirthdayDay {
+	width: 75px;
+	margin-right: 5px;
+}
+.form select#UserBirthdayYear {
+	width: 95px;
+}
+.form .button-row {
+	display: inline-block;
+	width: 100%;
+}
+.form .button-row button {
+	float: left;
+	width: 320px;
+	margin: 15px 0 0 200px;
+	padding: 10px 0;
+	font-size: 1.3em;
+	background: #4dbab4; 
+	color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+.form .button-row button:hover {
+	background: #eb541b;
+	cursor: pointer;
+}
+/* SECTION-TWO */
+.form div.input.date select {
+	width: auto;
+}
+.form div.checkbox-select {
+	display: inline-block;
+}
+.form div.checkbox-select div.select {
+	position: relative;
+	width: 870px;
+	padding: 0;
+}
+.form div.checkbox-select div.select > label {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.form div.checkbox {
+	float: left;
+	width: 300px;
+	margin: 10px 10px 0 0;
+	padding: 10px;
+	background: #ffffff;
+	border: solid 1px #babbad;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+.form div.checkbox:hover {
+	/*background: #eb541b;*/
+	color: #eb541b;
+}
+.form div.checkbox label {
+	width: 140px !important;
+}
+.form .button-row button#previous {
+	margin: 15px 12px 0 0px;
+}
+.form .button-row button#submit {
+	margin: 15px 0 0 0px;
+}

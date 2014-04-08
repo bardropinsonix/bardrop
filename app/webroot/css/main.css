@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*background: #d3d7be;*/
+	background: #4d666d;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #383838; 
+}
+
+a, a:visited {
+	color: #4d666d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4dbab4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+table {
+	 cellpadding: 0;
+	 cellspacing: 0; 
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #d3d7be;
+	border-top: solid 1px #f0f2e2;
+	border-bottom: solid 1px #f0f2e2;
+}

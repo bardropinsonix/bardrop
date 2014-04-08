@@ -1,0 +1,87 @@
+#header-container {
+	/*position: relative;*/
+	/*margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 185px;
+	background: transparent url('/img/header_drinks.png') bottom left repeat-x;	
+	background-position: 0px 97px;
+	border-bottom: solid 1px #000000;*/
+	z-index: 999;
+}
+
+#header {
+	/*position: relative;*/
+	width: 960px;
+	height: 185px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: 999;
+}
+
+#logo {
+	position: relative;
+	z-index: 999;
+	/*display: inline-block;
+	margin-top: 40px;*/
+}
+
+#logo h1 a { 
+	text-indent: -9999px;
+	background: transparent url('/img/header_logo_bardrop_new.png') no-repeat;
+	background-size: 355px 96px;
+	display: block;
+	width: 355px;
+	height: 96px; 
+	margin-top: 40px;
+	z-index: 999;
+}
+
+#logo #login, #logo #logout{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#join-movement img{
+	position: absolute;
+	top: 120px;
+	right: 0;
+	z-index: 999; 
+}
+/*#header p { 
+	text-indent: -9999px;
+	background: transparent url('/img/header_join_the_movement.png') no-repeat;
+	display: block;
+	width: 461px;
+	height: 113px;
+	position: absolute;
+	top: 105px;
+	right: 0;
+	z-index: 3; 
+}*/
+
+#drop-movement {
+	position: relative; 
+	width: 960px; 
+	margin: 0 auto;
+}
+
+#drop-movement img {
+	position: absolute;
+	top: -50px;
+	right: 0;
+	z-index: 1;
+}
+
+#img_drinks {
+	background: transparent url('/img/header_drinks.png') repeat-x top left;
+	display: block;
+	width: 1566px;
+	height: 165px;
+	width: 100%;
+	position: absolute;
+	top: 97px;
+	left: 0;
+	z-index: 10;
+}
